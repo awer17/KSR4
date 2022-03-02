@@ -2,9 +2,90 @@ body {
   font-family: 'Poppins';
 }
 
+/* header*/
 .wrapper {
   width: 1920px;
+  margin: 0 auto;
   max-width: 1920px;
   background: #FCFCFC;
+}
+
+.wrapper .header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 1820px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .header .logo {
+  margin-left: -4px;
+}
+
+.wrapper .header nav ul {
+  width: 1465px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .header nav ul .item-first {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #0F0F0F;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .header nav ul .holder-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 56px 129px;
+      grid-template-columns: 56px 129px;
+  -ms-grid-rows: 28px  28px;
+      grid-template-rows: 28px  28px;
+  -webkit-column-gap: 26px;
+          column-gap: 26px;
+}
+
+.wrapper .header nav ul .holder-items .holder {
+  width: 56px;
+  height: 56px;
+  background: #C4C4C4;
+  border-radius: 22px;
+}
+
+.wrapper .header nav ul .holder-items .user-name {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2E2E2E;
+  margin-top: 3px;
+}
+
+.wrapper .header nav ul .holder-items .user-position {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2E2E2E;
+  text-decoration: none;
+  margin-top: 4px;
 }
 /*# sourceMappingURL=main.css.map */
