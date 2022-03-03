@@ -226,8 +226,6 @@ body{
                 
             }
             .progres{
-                width: 100%;
-                height: 100%;
                 background: #FFFFFF;
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
                 border-radius: 22px;
@@ -240,6 +238,7 @@ body{
                     margin-bottom: 29px;
                 }
                 .items{
+                    width: 283px;
                     margin-top: 32px;
                     display: flex;
                     justify-content: space-between;
@@ -251,7 +250,7 @@ body{
                             display: flex;
                             align-items: center;
                             span{      
-                                display:inline-block;                     
+                                display:inline-block;               
                                 width: 12px;
                                 height: 12px;
                                 background: linear-gradient(90deg, #F7943A 32.13%, rgba(255, 209, 48, 0.74) 104.8%);
@@ -274,15 +273,32 @@ body{
                         color: #262626;
                         margin-top: 4px;
                         margin-left: 18px;
-                    }
-                    
+                    }                    
                 }
-
-
             }
         }
     }
-
+}
+.wrapper{
+    .footer{
+        margin-top: 87px;
+        margin-left: 41px;
+        .wrap{
+            width: 161px;
+            .name-admin{
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 153%;
+                color: #969BA0;
+            }
+            .rights{
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 217%;
+                color: #969BA0;
+            }
+        }
+    }
 }
 
 

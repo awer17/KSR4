@@ -287,8 +287,6 @@ body {
 }
 
 .main .righ-items .schedule .progres {
-  width: 100%;
-  height: 100%;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
@@ -305,6 +303,7 @@ body {
 }
 
 .main .righ-items .schedule .progres .items {
+  width: 283px;
   margin-top: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,5 +353,28 @@ body {
   color: #262626;
   margin-top: 4px;
   margin-left: 18px;
+}
+
+.wrapper .footer {
+  margin-top: 87px;
+  margin-left: 41px;
+}
+
+.wrapper .footer .wrap {
+  width: 161px;
+}
+
+.wrapper .footer .wrap .name-admin {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 153%;
+  color: #969BA0;
+}
+
+.wrapper .footer .wrap .rights {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 217%;
+  color: #969BA0;
 }
 /*# sourceMappingURL=main.css.map */
