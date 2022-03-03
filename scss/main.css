@@ -355,26 +355,34 @@ body {
   margin-left: 18px;
 }
 
-.wrapper .footer {
+.wrapper footer {
   margin-top: 87px;
   margin-left: 41px;
+  padding-bottom: 45px;
 }
 
-.wrapper .footer .wrap {
+.wrapper footer .wrap {
   width: 161px;
 }
 
-.wrapper .footer .wrap .name-admin {
+.wrapper footer .wrap .name-admin {
   font-weight: 600;
   font-size: 17px;
   line-height: 153%;
   color: #969BA0;
 }
 
-.wrapper .footer .wrap .rights {
+.wrapper footer .wrap .rights {
   font-weight: normal;
   font-size: 12px;
   line-height: 217%;
+  color: #969BA0;
+}
+
+.wrapper footer .wrap .subtitle {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
   color: #969BA0;
 }
 /*# sourceMappingURL=main.css.map */

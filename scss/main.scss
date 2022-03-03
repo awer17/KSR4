@@ -279,10 +279,13 @@ body{
         }
     }
 }
+
+
 .wrapper{
-    .footer{
+    footer{
         margin-top: 87px;
         margin-left: 41px;
+        padding-bottom: 45px;
         .wrap{
             width: 161px;
             .name-admin{
@@ -297,7 +300,14 @@ body{
                 line-height: 217%;
                 color: #969BA0;
             }
+            .subtitle{
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                color: #969BA0;
+            }
         }
+
     }
 }
 
